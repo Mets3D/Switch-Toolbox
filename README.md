@@ -1,3 +1,14 @@
+# Fork info
+This is my fork of the Switch Toolbox with two additions:
+- [Batch Animation Export](https://github.com/KillzXGaming/Switch-Toolbox/pull/704)
+- [Material Data Export as .json](https://github.com/KillzXGaming/Switch-Toolbox/pull/705)
+
+You can download a build from the [Releases](https://github.com/Mets3D/Switch-Toolbox/releases) page.
+
+Below is the original project's ReadMe.
+
+---
+
 # Switch-Toolbox
 A tool to edit many formats of Nintendo Switch, 3DS and Wii U. 
 
