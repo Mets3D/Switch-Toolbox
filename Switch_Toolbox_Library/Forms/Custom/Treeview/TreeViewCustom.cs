@@ -22,6 +22,19 @@ namespace Toolbox.Library
         public TreeNodeCustom()
         {
         }
+        public TreeNodeCustom RootNode
+        {
+            get
+            {
+                TreeNodeCustom currentNode = this;
+                while (currentNode.Parent != null)
+                {
+                    currentNode = currentNode.Parent as TreeNodeCustom;
+                }
+
+                return currentNode;
+            }
+        }
     }
 
     public class TreeNodeFile : TreeNodeCustom
