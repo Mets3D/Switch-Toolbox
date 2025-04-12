@@ -1773,7 +1773,7 @@ namespace Toolbox
                                              .Select(m => m as FMAT)
                                              .Where(m => m != null))
                     {
-                        material.Export($"{path}_{material.Text}.json", false);
+                        material.Export($"{path}.{material.Text}.json", false);
                     }
                     batchExportFileList.Add(path);
                 }
